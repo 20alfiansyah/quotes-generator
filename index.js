@@ -2,7 +2,7 @@ const inputNama = document.getElementById('inputNama')
 const result = document.getElementById('result')
 const waitText = document.getElementById("waitText")
 const imgHeart = document.getElementById("imgHeart")
-const quotes = ["Stop stressing over shitty people", "Be like a sun keep on shining and let them burn","let it hurt then let it go"]
+const quotes = ["Stop stressing over shitty people", "Be like a sun keep on shining and let them burn","let it hurt then let it go", "Don't stop until u proud", "Yang dapet kata kata ini berarti orangnya cantik"]
 function clickMe() {
     let random = Math.floor(Math.random() * quotes.length)
     wrongInput.classList.add('hidden')
