@@ -5,13 +5,13 @@ const imgHeart = document.getElementById("imgHeart")
 const quotes = ["Stop stressing over shitty people", "Be like a sun keep on shining and let them burn","let it hurt then let it go", "Don't stop until u proud", "Yang dapet kata kata ini berarti orangnya cantik"]
 function clickMe() {
     let random = Math.floor(Math.random() * quotes.length)
+    result.classList.add('hidden')
     wrongInput.classList.add('hidden')
     waitText.classList.toggle('hidden')
     setTimeout(() => {
         if (inputNama.value.length == 0) {
             waitText.classList.toggle('hidden')
             wrongInput.classList.remove('hidden')
-            result.classList.add('hidden')
         }
         else{
             waitText.classList.toggle('hidden')
